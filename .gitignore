@@ -1,0 +1,5 @@
+# Ignorar el directorio de dependencias de Composer
+/vendor/
+
+# Otros archivos que podrías querer ignorar (ejemplos)
+.env
