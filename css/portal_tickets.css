@@ -1,0 +1,51 @@
+/* c:/xampp/htdocs/soporte_biofix/css/portal_tickets.css */
+
+.tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tickets-table th,
+.tickets-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* var(--color-border) */
+}
+
+.tickets-table thead th {
+    background-color: #f1f5f9; /* slate-100 */
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #6c757d; /* var(--color-text-secondary) */
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ticket-row {
+    transition: background-color 0.2s;
+}
+
+.ticket-row-expandable {
+    cursor: pointer;
+}
+
+.ticket-row-expandable:hover {
+    background-color: #f8f9fa;
+}
+
+.details-row {
+    display: none; /* Oculto por defecto */
+}
+
+.details-row td {
+    background-color: #fdfdff;
+    padding: 24px;
+}
+
+.response-section, .request-section {
+    margin-bottom: 16px;
+    padding: 12px;
+    border-radius: 6px;
+}
+.response-section { background-color: #eef2ff; border-left: 4px solid #4f46e5; }
+.request-section { background-color: #f1f5f9; }
